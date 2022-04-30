@@ -1,0 +1,7 @@
+D:\Lab\ASP.NetCore\1.Introduction\PrjHostingModel\obj\Release\net6.0\PubTmp\Out\PrjHostingModel.exe
+D:\Lab\ASP.NetCore\1.Introduction\PrjHostingModel\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Lab\ASP.NetCore\1.Introduction\PrjHostingModel\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Lab\ASP.NetCore\1.Introduction\PrjHostingModel\obj\Release\net6.0\PubTmp\Out\PrjHostingModel.dll
+D:\Lab\ASP.NetCore\1.Introduction\PrjHostingModel\obj\Release\net6.0\PubTmp\Out\PrjHostingModel.deps.json
+D:\Lab\ASP.NetCore\1.Introduction\PrjHostingModel\obj\Release\net6.0\PubTmp\Out\PrjHostingModel.runtimeconfig.json
+D:\Lab\ASP.NetCore\1.Introduction\PrjHostingModel\obj\Release\net6.0\PubTmp\Out\PrjHostingModel.pdb

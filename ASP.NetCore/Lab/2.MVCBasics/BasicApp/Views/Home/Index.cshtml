@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Index Page";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The World - @ViewBag.Title</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+
+    The company <b>@ViewBag.Company</b> has headquarter at @ViewData["HeadQuarter"]
+
+    <br />
+    It has offices at
+    <ul>
+        @foreach (var location in ViewBag.Locations)
+        {
+            <li>@location</li>
+
+        }
+    </ul>
+
+    <br /> and has UK offices at
+
+    <ol>
+        @foreach (var uklocation in ViewData["UKLocations"] as List<String>)
+        {
+            <li>@uklocation</li>
+        }
+    </ol>
+</body>
+</html>

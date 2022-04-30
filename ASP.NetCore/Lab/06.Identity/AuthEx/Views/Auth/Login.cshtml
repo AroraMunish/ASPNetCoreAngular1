@@ -1,0 +1,48 @@
+﻿@model AuthEx.ViewModel.LoginViewModel
+
+@{
+    ViewBag.Title = "Contact Page";
+}
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
+<style>
+    
+label {
+    font-weight: bold;
+    width:150px;
+    margin:20px;
+}
+
+input[type=text], input[type=password], textarea {
+    width: 150px;
+}
+input[type=submit] {
+    font-weight: bold;
+    margin:20px 0 0 100px ;
+}
+</style>
+
+<body>
+    <div id="main">
+        <h1>Login</h1>
+    </div>
+    <form method="post" novalidate>
+        @if (ViewBag.Message != null)
+        {
+            <div>@ViewBag.Message</div>
+        }
+        <label asp-for="UserName">UserName</label>
+        <input asp-for="UserName" />
+        <span asp-validation-for="UserName"></span>
+        <br/>
+        <label asp-for="Password">Password</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+
+        <div><input type="submit" value="Login" /></div>
+
+    </form>
+</body>

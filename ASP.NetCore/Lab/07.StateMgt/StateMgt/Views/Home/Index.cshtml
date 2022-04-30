@@ -1,0 +1,35 @@
+﻿@model StateMgt.ViewModel.Person
+@{
+    ViewData["Title"] = "Index";
+}
+<html>
+<head>
+    <style>
+        label {
+            width: 100px;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        div {
+            text-align: center;
+            width: 300px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pls. enter the details</h2>
+    <form method="post">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" name="Name" />
+        <br />
+        <label asp-for="Age">Age</label>
+        <input asp-for="Age" name="Age" />
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>
+

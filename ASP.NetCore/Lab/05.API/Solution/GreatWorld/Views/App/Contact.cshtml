@@ -1,0 +1,41 @@
+﻿@model GreatWorld.ViewModel.ContactViewModel
+
+@section Scripts{
+  <script src="~/lib/jquery/dist/jquery.js"></script>
+  <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+  <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
+
+
+<div class="col-10 text-center">
+  <h1>Contact Page</h1>
+  <br />
+</div>
+@if (ViewBag.Message != null)
+{
+  <div>@ViewBag.Message</div>
+}
+
+<div class="text-center">
+  <form class="form-horizontal" method="post">
+    <div class="form-group row">
+      <label class="col-2  col-form-label" asp-for="Name">Name</label>
+      <input class="col-6 col-lg-4" asp-for="Name" />
+      <span class="col-4 col-lg-6" asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group row">
+      <label class="col-2  col-form-label" asp-for="Email">Email Id</label>
+      <input class="col-6 col-lg-4" asp-for="Email" />
+      <span class="col-4 col-lg-6" asp-validation-for="Email"></span>
+    </div>
+    <div class="form-group row">
+      <label class="col-2  col-form-label align-top" asp-for="Message">Message</label>
+      <textarea class="col-6 col-lg-4" cols="40" rows="4" asp-for="Message"></textarea>
+      <span class="col-4 col-lg-6" asp-validation-for="Message"></span>
+    </div>
+    <br/>
+    <div class="form-group col-12 text-center">
+      <input type="submit" value="Send Message" class="btn btn-success" />
+    </div>
+  </form>
+</div>

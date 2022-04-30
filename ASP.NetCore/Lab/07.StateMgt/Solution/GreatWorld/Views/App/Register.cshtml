@@ -1,0 +1,42 @@
+﻿@model GreatWorld.ViewModel.RegisterViewModel
+
+@section Scripts{
+  <script src="~/lib/jquery/dist/jquery.js"></script>
+  <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+  <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
+
+<div class="text-center">
+  <h1>Register User</h1>
+  <br />
+  @if (ViewBag.Message != null)
+  {
+    <div>@ViewBag.Message</div>
+  }
+  <form method="post" class="form-horizontal" novalidate>
+    <div class="form-group row">
+      <label class="col-2 offset-3" asp-for="UserName">UserName</label>
+      <input class="col-3" asp-for="UserName" />
+      <span class="col-4" asp-validation-for="UserName"></span>
+    </div>
+    <div class="form-group row">
+      <label class="col-2 offset-3" asp-for="Password">Password</label>
+      <input class="col-3" type="password" asp-for="Password" />
+      <span class="col-4" asp-validation-for="Password"></span>
+    </div>
+    <div class="form-group row">
+      <label class="col-2 offset-3" asp-for="ComparePassword">Compare Password</label>
+      <input class="col-3" type="password" asp-for="ComparePassword" />
+      <span class="col-4" asp-validation-for="ComparePassword"></span>
+    </div>
+    <div class="form-group row">
+      <label class="col-2 offset-3" asp-for="Email">Email Id</label>
+      <input class="col-3" type="email" asp-for="Email" />
+      <span class="col-4" asp-validation-for="Email"></span>
+    </div>
+    <div class="col-6 offset-3">
+      <input type="submit" value="Register" class="btn btn-success" />
+    </div>
+
+  </form>
+</div>

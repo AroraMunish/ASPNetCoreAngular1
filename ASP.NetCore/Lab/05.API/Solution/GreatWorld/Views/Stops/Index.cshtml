@@ -1,0 +1,65 @@
+﻿@model IEnumerable<GreatWorld.Models.Stop>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>@ViewBag.TripName | Stops</h1>
+
+<p>
+    <div class="row">
+        <a class="btn btn-primary offset-2 col-2" asp-action="Create" asp-route-tripId=@ViewBag.tripId>Create New</a>
+        <a asp-controller="Trips" asp-action="index" class="btn btn-primary offset-3 col-2">Trips</a>
+    </div>
+</p>
+<div class="border rounded border-success">
+    <table class="table table-striped">
+        <thead class="bg-primary">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Longitude)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Latitude)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Arrival)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Order)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Longitude)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Latitude)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Arrival)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Order)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" class="btn btn-primary" asp-route-id="@item.id">Edit</a>
+                        <a asp-action="Details" class="btn btn-info" asp-route-id="@item.id">Details</a> 
+                        <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<GreatWorld.Models.Trip>
+
+<div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-6">
+        <div class="text-center">
+            <h1>The World</h1>
+            <p>This will be a fun website soon!</p>
+
+            <form class="form-horizontal">
+                @*<div class="border border-primary rounded col-6" style="padding:10px;">*@
+                <div class="form-group row" >
+                    <label class="col-2 offset-3 offset-sm-1">Date</label>
+                    <input class="col-3 col-sm-4 offset-sm-2" />
+                </div>
+                <div class="form-group row">
+                    <label class="col-2 offset-3 offset-sm-1">Location</label>
+                    <input class="col-3 col-sm-4 offset-sm-2" />
+                </div>
+                <div class="col-6 offset-3 d-flex justify-content-center">
+                    <input type="submit" value="Add" class="btn btn-primary" />
+                </div>
+                @*</div>*@
+            </form>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <div id="maps" class="text-left">
+            <h1> List of Trips</h1>
+            <ul>
+                @foreach (var trip in Model)
+                {
+                    <li> @trip.Name (@trip.Created.ToShortDateString()) </li>
+
+                    var i = 0;
+                    @foreach (var stop in trip.Stops.OrderBy(s => s.Order))
+                    {
+                        i++;
+                        <p>@i - Order: @stop.Order.@stop.Name  </p>
+                    }
+                }
+            </ul>
+        </div>
+
+    </div>
+</div>

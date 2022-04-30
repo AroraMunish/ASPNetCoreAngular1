@@ -1,0 +1,23 @@
+﻿@model BasicApp.Model.CompanyInfo
+
+@{ ViewBag.Title = "About";}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<body>
+    <h2>About Us</h2>
+
+    We <b> @Model.Name</b> are operational at @Model.Location
+
+    <h3>List of Developers</h3>
+    <ul>
+        @foreach (var item in @Model.Developers)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</body>
+</html>

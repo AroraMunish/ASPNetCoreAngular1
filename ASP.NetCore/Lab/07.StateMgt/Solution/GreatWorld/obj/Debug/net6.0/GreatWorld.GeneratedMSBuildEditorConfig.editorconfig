@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GreatWorld
+build_property.RootNamespace = GreatWorld
+build_property.ProjectDir = D:\Lab\ASP.NetCore\07.StateMgt\Solution\GreatWorld\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Lab\ASP.NetCore\07.StateMgt\Solution\GreatWorld
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/App/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXEFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/App/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/App/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/App/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/App/Trips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXFRyaXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Shared/_footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Stops/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Stops/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Stops/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Stops/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Stops/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Trips/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Trips/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Trips/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Trips/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/Trips/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lab/ASP.NetCore/07.StateMgt/Solution/GreatWorld/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
